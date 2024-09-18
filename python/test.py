@@ -28,6 +28,11 @@
 s = ["a", "c", "b","d"]
 s.insert(0, "a")
 print(s)
+set1 = set({1, 2, -1})
+set2 = {1, 2, 5}
+set1 = set1 | set2
+print(set1)
+
 # print(s[0])
 # chr(s[0])
 # print(s)
