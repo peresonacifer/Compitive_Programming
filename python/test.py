@@ -25,14 +25,15 @@
 # print(l_3)
 # print(l_1[0]+l_2[0])
 
-s = ["a", "c", "b","d"]
-s.insert(0, "a")
-print(s)
-set1 = set({1, 2, -1})
-set2 = {1, 2, 5}
-set1 = set1 | set2
-print(set1)
-
+# s = ["a", "c", "b","d"]
+# s.insert(0, "a")
+# print(s)
+# set1 = set({1, 2, -1})
+# set2 = {1, 2, 5}
+# set1 = set1 | set2
+# print(set1)
+tt = [x for x in range(8, 1, -1)]
+print(*tt)
 # print(s[0])
 # chr(s[0])
 # print(s)
