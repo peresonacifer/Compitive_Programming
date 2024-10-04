@@ -32,8 +32,11 @@
 # set2 = {1, 2, 5}
 # set1 = set1 | set2
 # print(set1)
-tt = [x for x in range(8, 1, -1)]
-print(*tt)
+# tt = [x for x in range(8, 1, -1)]
+# print(*tt)
+# print(2**21   )
+for i in range(100000, 0, -1):
+    print(i, end=" ")
 # print(s[0])
 # chr(s[0])
 # print(s)
