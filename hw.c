@@ -21,13 +21,13 @@ int main(void) {
         printf("Enter grade of student %d: ", iGradeCounter);
         scanf("%d", &iCurrentGrade);
         while (iCurrentGrade < 0 || iCurrentGrade > 100) {
-            printf("%s", "Invaild data, please input the grade of student %d in the range 1 to 100: ", iGradeCounter);
+            printf("Invaild data, please input the grade of student %d in the range 1 to 100: ", iGradeCounter);
             scanf("%d", &iCurrentGrade);
         }
         iTotal += iCurrentGrade;
         iGradeCounter ++;
     }
 
-    printf("The class average = %.2f", (float)iTotal / 10);
+    printf("The class average = %.2f", (float)iTotal / iNumOfGrades);
     return 0;
 }
