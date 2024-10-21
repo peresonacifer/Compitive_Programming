@@ -8,7 +8,7 @@ void sol() {
     cin >> n;
     
     // vector<int> isprime; //別用memset指派，用assign、fill、resize
-    vector<int> isprime(n, 1);
+    vector<int> isprime(n + 1, 1);
     // isprime.resize(n + 1, 1);
 
     // n太大出不來(1000000多):
