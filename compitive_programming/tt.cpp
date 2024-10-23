@@ -9,11 +9,19 @@ void factorization(int n) {
 
 void sol() {
     map <int, int> mp;
-    mp[1]++;
-    mp[2] = mp[1] + 1;
-    mp[3] = mp[2] + 1;
-    for (auto it = mp.rbegin(); it != mp.rend(); it++) cout << it->second;
-    cout << mp[1];
+    // mp[1]++;
+    // mp[2] = mp[1] + 1;
+    // mp[3] = mp[2] + 1;
+    // for (auto it = mp.rbegin(); it != mp.rend(); it++) cout << it->second;
+    // cout << mp[1];
+    set<int> st;
+    st.insert(3);
+    st.insert(2);
+    st.insert(3);
+    for (auto it : st) cout  << it;
+    int sz = st.size();
+    int i = 1;
+
     // int n = 6;
     // float a = 6.1;
     // int b = a;

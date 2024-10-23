@@ -11,38 +11,50 @@ void sol() {
         cin >> i;
         if (i > max) max = i;
     }
-    vector<int> factor(max + 1, 0), prime;
+    vector<int> factor(max + 1, 0), prime, counts(1e6 + 1, 0);
+    // cout << max << '\n';
     factor[0] = factor[1] = 1;
 
     for (int i = 2; i <= max; i++) {
-        if(!factor[i]) prime.push_back(i);
-        for (int j = 0; j < prime.size() && i * prime[j] <= max; j++) {
-            if(!factor[i]) factor[i * prime[j]] = i;
-            else {
-                if (factor[i] > prime[j]) factor[i * prime[j]] = factor[i];
-                else factor[i * prime[j]] = prime[j];
-            }
+        if(!factor[i]) {
+            prime.push_back(i);
+            factor[i] = i;
         }
-        if(!factor[i]) factor[i] = i;
+        for (int j = 0; i * prime[j] <= max; j++) {
+            factor[i * prime[j]] = prime[j];
+            if (i % prime[j] == 0) break;
+            }    
     }
+    // for (auto p : factor) cout << p << '\n';
     // for (size_t t = 0; t < factor.size(); t++) cout << t << ':' << factor[t] << '\n';
     // cout << factor[14];
-    map<int, int> mp;
+    // map<int, int> mp;
+
     for (auto it = arr.begin(); it != arr.end(); it++) {
-        // cout << *it << '\n';
-        int f = 1;
-        for (int x = *it; x != f; x /= factor[x])  {
-            mp[x]++;
-            if (x == factor[x]) break;
-            if (f == factor[x]) continue;
-            mp[factor[x]]++;
-            f = factor[x];
+        counts[*it]++;
+        for (ll k = factor[*it]; k * k <= *it; k++) {
+            // cout << k << '\n';
+            if (k * k == *it) {
+                counts[k]++;
+                
+                // t++;
+            }
+            else { 
+                if (*it % k == 0) {
+                    counts[k]++;
+                    counts[*it / k]++;
+                    // t++;
+                }
+            // cout << k << '\n';
+            }
+        for (int j = 0; j <= max; j++) cout << counts[j] << " ";    
+        cout << '\n';
         }
-        // cout << factor[*it] << '\n';
     }
-    for (auto it = mp.rbegin(); it != mp.rend(); it++) {
-        if (it -> second >= 2) {
-            cout << it -> first;
+    // // cout << t;
+    for (int i = max; i > 0; i--) {
+        if(counts[i] >= 2) {
+            cout << i;
             return;
         }
     }
