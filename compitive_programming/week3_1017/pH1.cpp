@@ -3,10 +3,9 @@ using namespace std;
 using ll = long long;
 
 map<int, int> mp;
-vector<int> vct;
 
 void d(int n) {
-    for (int i = 2; i * i <= n; i++) {
+    for (ll i = 2; i * i <= n; i++) {
         while(n % i == 0) {
             mp[i]++;
             n /= i;
@@ -15,33 +14,37 @@ void d(int n) {
     if (n > 1) mp[n]++;
 }
 void sol() {
-    int ori_n, q;
+    ll ori_n;
+    int q;
     cin >> ori_n >> q;
     d(ori_n);
-    vct.push_back(ori_n);
+    
     while(q--) {
         int tq;
         cin >> tq;
         if (tq == 2) {
             mp.clear();
-            vct.clear();
-            vct.push_back(ori_n);
             d(ori_n);
         }
-        else {
-            int x, num_n = 1, d_n = 1;
+        else { 
+            ll x, num_n = 1;
             cin >> x;
             d(x); 
-            vct.push_back(x);
-            for (auto it = mp.begin(); it != mp.end(); it++)
+            map<int, int> mp2(mp);
+            for (auto it = mp2.begin(); it != mp2.end(); it++)
                 num_n *= (it -> second + 1);
-            for (auto p : vct) 
-                d_n *= (p % num_n);
-            // cout << "n: " << n << ", num: " << num << '\n';
-            if(d_n % num_n == 0) cout << "YES\n";
+            for (auto it = mp2.begin(); it != mp2.end(); it++) {
+                while (num_n % it -> first == 0 && it -> second) {
+                    num_n /= it ->first;
+                    it -> second--;
+                }
+            }
+
+            if(num_n == 1) cout << "YES\n";
             else cout << "NO\n";
         }
     }
+    mp.clear(); 
     cout << '\n';
 }
 

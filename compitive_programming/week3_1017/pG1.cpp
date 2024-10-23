@@ -15,9 +15,10 @@ void sol() {
         }
         st.insert(d);
     }
-    vector<int> vct(st.begin(), st.end());
+    vector<ll> vct(st.begin(), st.end());
     ll x = vct[0] * vct[n - 1];
-    for (ll i = 2; i <= x; i++) {
+    
+    for (ll i = 2; i * i <= x; i++) {
         int t = 1;
         while (x % i == 0) {
             x /= i;
@@ -25,6 +26,8 @@ void sol() {
         }
         num *= t;
     }
+    if (x > 1) num *= 2;
+
     if (num - 2 == n) {
         x = vct[0] * vct[n - 1];
         int i = 0, j = n - 1;
