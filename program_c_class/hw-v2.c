@@ -36,6 +36,7 @@ int main(void) {
         } 
 
         // 依次輸入每個學生的成績
+    
         while (iGradeCounter < iNumOfGrades + 1) {
             int iCurrentGrade = 0;
             printf("Enter grade of student %d: ", iGradeCounter);
