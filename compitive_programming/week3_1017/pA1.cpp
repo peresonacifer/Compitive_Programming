@@ -19,6 +19,7 @@ void sol() {
     }
 }
 int main(void) {
+    int a;
     sol();
     return 0;
 }

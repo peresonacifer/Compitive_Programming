@@ -13,12 +13,16 @@ void sol() {
     for(int i = 0; i < n; i++) {
         int x, y;
         cin >> x >> y;
-        mp[x] = y;
+        if(mp.find(y) != mp.end()) {
+            if(x > mp[y]) mp[y] = x;
+            else continue;
+        }
+        mp[y] = x;
     }
 
     for(auto it = mp.begin(); it != mp.end(); it++) {
-        if(it -> first >= current) {
-            current = it -> second;
+        if(it -> second >= current) {
+            current = it -> first;
             ans++;
         }
     }
