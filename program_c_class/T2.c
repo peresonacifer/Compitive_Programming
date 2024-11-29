@@ -75,8 +75,7 @@ void diamond_pattern() {
         for(int k = i; k > (ilayers + 1) / 2 ; k--) {
             printf("  ");
         }
-
-        for(int j = 1; j <= ilayers - 2 * ((ilayers + 1) / 2 - (i - (ilayers + 1) / 2)); j++) {
+        for(int j = 1; j <= 2 * (ilayers - i + 1) - 1; j++) {
             if(j % 2) {
                 if(asending) {
                 ians++;
@@ -113,6 +112,22 @@ double calculate_stddev(double _iNum1, double _iNum2, double _iNum3, double _dav
     return dsigma;
 }
 
+unsigned int fab(int n) {
+    if(n == 1 || n == 0) {
+        return n;
+    }
+
+    return fab(n - 1) + fab(n - 2);
+}
+
+void callfab() {
+    int n;
+    printf("please input n: ");
+    scanf("%d", &n);
+    printf("fab(%d) = %u", n, fab(n));
+    return;
+}
+
 void standardize_three_number() {
 
     printf("please enter three integers:\n");
@@ -130,7 +145,7 @@ int main() {
     
     int iOpt;
     do {
-        printf("Please choose which option you want to do:\n1: Square pattern\n2: Diamond pattern with stars \n3: Standardize three numbers\n4: End program\n");
+        printf("Please choose which option you want to do:\n1: Square pattern\n2: Diamond pattern with stars \n3: Standardize three numbers\n4: fabnocci\n5: End program\n");
         scanf("%d", &iOpt);
         while (1) {
             switch (iOpt)
@@ -148,6 +163,10 @@ int main() {
                 puts("\n<back to top level menu>");
                 break;
             case 4:
+                callfab();
+                puts("\n<back to top level menu>");
+                break;
+            case 5:
                 break;
             default:
                 printf("Wrong option, please input again: ");
