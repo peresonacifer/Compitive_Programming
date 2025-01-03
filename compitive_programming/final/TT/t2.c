@@ -111,6 +111,7 @@ int main() {
     int n, num = 1;
     scanf("%d", &n);
     Diamond_pattern(n, 1, true, &num);
+    print_with_array(n);
     return 0;
 }
 
