@@ -41,6 +41,13 @@
         "type_traits": "cpp",
         "utility": "cpp",
         "typeindex": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "cmath": "cpp",
+        "iomanip": "cpp",
+        "*.tcc": "cpp",
+        "memory": "cpp",
+        "format": "cpp",
+        "variant": "cpp",
+        "ranges": "cpp"
     }
 }

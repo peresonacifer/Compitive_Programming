@@ -1,10 +1,11 @@
 import pylab
+pi = pylab.pi
 
 # [a,b] 100 等份
-a , b , n = 1 , 2 , 100
+a , b , n = 0 , 1 , 100
 
-# 定義函式
-fn = lambda x : x * pylab.sqrt(2 * x - 1)
+# 定義函式 (改成 x^2 + sqrt(x) )
+fn = lambda x : x**2 + pylab.sqrt(x)
 
 # 取等份點成 xs ，向量式運算得 ys
 xs , h = pylab.linspace(a,b,n+1,retstep=True)
@@ -31,7 +32,9 @@ rsum *= h
 lsum *= h
 usum *= h
 tsum *= h/2
-isum = (21 * pylab.sqrt(3) - 4) / 15  # 正確解
+
+# 正確解 (這個積分的數學解是 1)
+isum = 1
 
 print( "數學積分   :" , round(isum,9) , end="\n\n" )
 print( "迴圈求積:" )
@@ -40,8 +43,8 @@ print( "上矩形積分 :" , round(usum,9) , " 誤差:" , round(abs(isum-usum),1
 print( "下矩形積分 :" , round(lsum,9) , " 誤差:" , round(abs(isum-lsum),10) )
 print( "梯形積分法 :" , round(tsum,9) , " 誤差:" , round(abs(isum-tsum),10) )
 print()
-# 公式計算：矩形、梯形、Simpson
 
+# 公式計算：矩形、梯形、Simpson
 # 矩形法係數：1,1,1,1,...,1,1
 isum1 = h * sum( ys[:-1] )
 

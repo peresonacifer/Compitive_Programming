@@ -1,6 +1,34 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "MainClass",
+            "request": "launch",
+            "mainClass": "ACJAVA.MainClass",
+            "projectName": "CESE-Problem_d79ba7be"
+        },
+        {
+            "type": "java",
+            "name": "solve",
+            "request": "launch",
+            "mainClass": "src.AC.solve",
+            "projectName": "CESE-Problem_d79ba7be"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "src.AC.App",
+            "projectName": "CESE-Problem_d79ba7be"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "AC.App",
+            "projectName": "CESE-Problem_d79ba7be"
+        },
+        {
             "name": "C/C++: g++.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
