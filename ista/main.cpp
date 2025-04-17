@@ -1,96 +1,78 @@
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
-#define ll long long
-vector<pair<string, set<string>>> v(10);
-bool ok[10];
-
-void sol() {
-    int n, m;
-    cin >> n;
-    cin.ignore();    
-    string s;
-
-    for(int i = 0; i < n; i++) {
-        getline(cin,s);
-        istringstream ss(s);
-        ss >> v[i].first;
-        string s2;
-        while(ss >> s2) v[i].second.insert(s2);       
-    }
-    cin >> m;
-    cin.ignore();
-    for(int i = 0; i < m; i++) {
-        getline(cin, s);
-        vector<string> vs;
-        string s2;
-        for(int a = 0; a < n; a++) ok[a] = true;
-        
-        for(int j = 0; j < s.size(); j++) {
-            if(s[j] == ' ') continue;
-            if(s[j] == '+') {
-                for(int k = 0; k < n; k++) {
-                    bool chk = true;
-                    for(int q = 0; q < vs.size(); q++) {
-                        if(v[k].second.find(vs[q]) == v[k].second.end()) {
-                            chk = false;
-                            break;
-                        }
-                    }
-                    if(chk) ok[k] = true;
-                }
-
-                vs.clear();
-                continue;
-            }
-            s2 += s[j];
-            if(s2.size() == 2) {
-                vs.push_back(s2); 
-                s2 = "";
-            }
-            if(j == s.size() - 1) {
-                for(int k = 0; k < n; k++) {
-                    bool chk = true;
-                    for(int q = 0; q < vs.size(); q++) {
-                        if(v[k].second.find(vs[q]) == v[k].second.end()) {
-                            chk = false;
-                            break;
-                        }
-                    }
-                    if(chk) ok[k] = true;
-                }
-            }
-        }
-
-        bool found = false;
-        for(int h = 0; h < n; h++) {
-            if(ok[h]) {
-                cout << v[h].first << " ";
-                found = true;
-            }    
-        } 
-        if(!found) cout << "None";
-        cout << '\n';
-    }
-/*
-5
-Alps MT NP WD
-Bali BE UR
-Kyoto CU UR
-Amazon WD NP LA
-Tahoe LA MT
-2
-MT BE+NP LA
-CU+MT WD
-  
-*/
-}
 
 int main() {
-    ios::sync_with_stdio(0), cin.tie(0);
-    int t = 1;
-    //cin >> t;
-    while(t--) {
-        sol();
+    cin.sync_with_stdio(0);
+    cin.tie(0);
+    int N;
+    cin >> N;
+    for (int i = 0; i<N; i++)
+    {
+        int D, S;
+        cin >> D >> S;
+        if (S == 1)
+        {
+            int count = D-1;
+            for (int j = 0; j<D; j++)
+            {
+                for (int k = 0; k<D; k++)
+                {
+                    if (k != 0) cout << " ";
+                    if (k == count)
+                    {
+                        count--;
+                        cout << "*";
+                    }
+                    else cout << "x";
+                }
+                cout << "\n";
+            }
+        }
+        else if (S == 2)
+        {
+            int count = 0;
+            for (int j = 0; j<D; j++)
+            {
+                bool ok = true;
+                for (int k = 0; k<D; k++)
+                {
+                    if (k != 0) cout << " ";
+                    if (k == count && ok)
+                    {
+                        ok = false;
+                        count++;
+                        cout << "*";
+                    }
+                    else cout << "x";
+                }
+                cout << "\n";
+            }
+        }
+        else if (S == 3)
+        {
+            for (int j = 0; j<D; j++)
+            {
+                for (int k = 0; k<D; k++)
+                {
+                    if (k != 0) cout << " ";
+                    if (k == D-1) cout << "*";
+                    else cout << "x";
+                }
+                cout << "\n";
+            }
+        }
+        else
+        {
+            for (int j = 0; j<D; j++)
+            {
+                for (int k = 0; k<D; k++)
+                {
+                    if (k != 0) cout << " ";
+                    if (k == 0) cout << "*";
+                    else cout << "x";
+                }
+                cout << "\n";
+            }
+        }
     }
-    return 0;
 }
