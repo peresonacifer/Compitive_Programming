@@ -5,6 +5,13 @@
             "name": "MainClass",
             "request": "launch",
             "mainClass": "ACJAVA.MainClass",
+            "projectName": "Compitive_Programming_90d04b20"
+        },
+        {
+            "type": "java",
+            "name": "MainClass",
+            "request": "launch",
+            "mainClass": "ACJAVA.MainClass",
             "projectName": "CESE-Problem_d79ba7be"
         },
         {

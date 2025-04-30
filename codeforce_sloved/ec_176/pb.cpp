@@ -4,27 +4,30 @@ using namespace std;
 
 int main() {
     ios::sync_with_stdio(0), cin.tie(0);
-    int t,  n, k ;
+    int t, n, k;
     cin >> t;
     while(t--) {
         cin >> n >> k;
-        vector<long long> v(n);
-        for(int i = 0; i < n; i++) cin >> v[i];
-        long long m = 0;
-        int d = n / (k +1);
+        vector<int> v(n);
+        long long ans = 0;
         for(int i = 0; i < n; i++) {
-            int t = 1, y = 0;
-            long long x = 0;
-            for(int a = 1; a < d; a++) {
-                for(int j = i; j < n && t < k + 1; t++, j += d) {
-                    x += v[j];
-                    y = max(i, n - 1 - i);
-                }
-                if(y == i)
+            cin >> v[i];
+        }        
+        if(k == 1) {
+            if(v[0] < v[n - 1]) swap(v[0], v[n - 1]);
+            ans += v[0];
+            for(int i = 1; i < n - 1; i++) {
+                if(v[i] > v[n - 1]) swap(v[i], v[n - 1]);
             }
-            
+            ans += v[n - 1];
         }
-        cout << m << '\n';
+        else {
+            sort(v.begin(), v.end());
+            for(int i = n - 1; n - i <= k + 1; i--) {
+                ans += v[i];
+            }
+        }
+        cout << ans << '\n';
     }
     
     return 0;
