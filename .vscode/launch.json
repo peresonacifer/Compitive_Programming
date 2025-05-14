@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BankAccount",
+            "request": "launch",
+            "mainClass": "ACJAVA.BankAccount",
+            "projectName": "Compitive_Programming_90d04b20"
+        },
+        {
+            "type": "java",
             "name": "MainClass",
             "request": "launch",
             "mainClass": "ACJAVA.MainClass",

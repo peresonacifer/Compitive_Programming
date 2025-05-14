@@ -1,0 +1,1742 @@
+[
+  {
+      "question": "Which of the following is not true about enterprise systems?",
+      "options": [
+          "Enterprise systems help firms respond rapidly to customer requests for information or products.",
+          "Enterprise system data have standardized definitions and formats that are accepted by the entire organization.",
+          "Enterprise software is expressly built to allow companies to support their existing business practices.",
+          "Enterprise software includes analytical tools to evaluate overall organizational performance.",
+          "Enterprise systems provide firmwide information to help managers make better decisions."
+      ],
+      "correct_answer": "Enterprise software is expressly built to allow companies to support their existing business practices."
+  },
+  {
+      "question": "You have been asked to implement enterprise software for a manufacturer of kitchen appliances. What is the first step you should take?",
+      "options": [
+          "Rewrite the software to support the way the company's business processes work.",
+          "Select the business processes you wish to automate.",
+          "Map the company's business processes to the software's business processes.",
+          "Map the software's business processes to the company's business processes.",
+          "Select the functions of the system you wish to use."
+      ],
+      "correct_answer": "Select the functions of the system you wish to use."
+  },
+  {
+      "question": "Which of the following enables a company to tailor a particular aspect of enterprise software to the way a company does business?",
+      "options": [
+          "Configuration tables",
+          "Web services",
+          "Data dictionaries",
+          "Middleware",
+          "Groupware"
+      ],
+      "correct_answer": "Configuration tables"
+  },
+  {
+      "question": "To achieve the maximum benefit of a new ERP system, Tasty Baking implemented an enterprise system by:",
+      "options": [
+          "using only the pre-defined processes in the ERP software that matched its own processes.",
+          "retaining its legacy systems to operate as a backup to the new enterprise system.",
+          "customizing less than 5 percent of the enterprise system processes.",
+          "changing the ERP software as needed to match their own processes.",
+          "using a cloud-based version of the ERP."
+      ],
+      "correct_answer": "customizing less than 5 percent of the enterprise system processes."
+  },
+  {
+      "question": "Coca-Cola implemented enterprise software from SAP that enabled it to achieve all of the following except:",
+      "options": [
+          "standardizing business processes worldwide.",
+          "improving its bargaining power with suppliers.",
+          "reacting faster to market changes.",
+          "reducing the number of employees.",
+          "reducing the cost of raw materials."
+      ],
+      "correct_answer": "reducing the number of employees."
+  },
+  {
+      "question": "Enterprise systems are built around a small number of predefined business processes.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "To reap the maximum benefits from enterprise software, companies should customize it to conform to their existing business processes.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "In the supply chain, components or parts are referred to as:",
+      "options": [
+          "upstream materials, organizations, and processes.",
+          "raw materials.",
+          "secondary products.",
+          "intermediate products.",
+          "downstream organizations and processes."
+      ],
+      "correct_answer": "intermediate products."
+  },
+  {
+      "question": "The ______ includes a company's suppliers, the suppliers' suppliers, and the processes for managing relationships with them?",
+      "options": [
+          "supplier's internal supply chain",
+          "logistics supply chain",
+          "downstream portion of the supply chain",
+          "upstream portion of the supply chain",
+          "intermediate portion of the supply chain"
+      ],
+      "correct_answer": "upstream portion of the supply chain"
+  },
+  {
+      "question": "All of the following are examples of supply chain inefficiencies except:",
+      "options": [
+          "parts shortages.",
+          "just-in-time production.",
+          "underused plant capacity.",
+          "excessive finished goods.",
+          "high transportation costs."
+      ],
+      "correct_answer": "just-in-time production."
+  },
+  {
+      "question": "To eliminate excessively high inventories of its Pampers disposable diapers at various points along its supply chain because of such distorted information, Procter & Gamble did all of the following except:",
+      "options": [
+          "revise its marketing processes.",
+          "revise its sales processes.",
+          "add safety stock.",
+          "revise its supply chain processes.",
+          "use more accurate demand forecasting."
+      ],
+      "correct_answer": "add safety stock."
+  },
+  {
+      "question": "A distortion of information about the demand for a product as it passes from one entity to the next across the supply chain is called the ______ effect.",
+      "options": [
+          "network",
+          "bullwhip",
+          "ripple",
+          "whirlpool",
+          "diffraction"
+      ],
+      "correct_answer": "bullwhip"
+  },
+  {
+      "question": "Supply chain software can be classified as either supply chain ______ systems or supply chain ______ systems.",
+      "options": [
+          "push; pull",
+          "demand; continual",
+          "upstream; downstream",
+          "planning; execution",
+          "maintenance; development"
+      ],
+      "correct_answer": "planning; execution"
+  },
+  {
+      "question": "Supply chain planning systems perform all of the following functions except:",
+      "options": [
+          "establish inventory levels for raw materials and finished goods.",
+          "identify the transportation mode to use for product delivery.",
+          "determine where to store finished goods.",
+          "determine how much product to manufacture in a given time period.",
+          "track the physical status of goods."
+      ],
+      "correct_answer": "track the physical status of goods."
+  },
+  {
+      "question": "Which supply chain planning function determines how much product is needed to satisfy all customer demands?",
+      "options": [
+          "Distribution management",
+          "Replenishment planning",
+          "Demand planning",
+          "Order planning",
+          "Customer planning"
+      ],
+      "correct_answer": "Demand planning"
+  },
+  {
+      "question": "Supply chain execution systems provide all of the following functions except:",
+      "options": [
+          "generating demand forecasts for products.",
+          "tracking the flow of finished goods.",
+          "managing materials.",
+          "managing warehouse operations.",
+          "managing the financial information involving all parties."
+      ],
+      "correct_answer": "generating demand forecasts for products."
+  },
+  {
+      "question": "A supply chain driven by actual customer orders is called a ______ model.",
+      "options": [
+          "supply-based",
+          "build-to-stock",
+          "replenishment-driven",
+          "pull-based",
+          "market-driven"
+      ],
+      "correct_answer": "pull-based"
+  },
+  {
+      "question": "Schneider National is an example of which of the following?",
+      "options": [
+          "Contract manufacturer",
+          "Third-party logistics provider",
+          "Tier 1 supplier",
+          "Distributor",
+          "Tier 2 supplier"
+      ],
+      "correct_answer": "Third-party logistics provider"
+  },
+  {
+      "question": "Which of the following is not a major entity in Nike's supply chain?",
+      "options": [
+          "Nike's contract suppliers",
+          "Nike's employees",
+          "Nike's distributors",
+          "Nike's retailers",
+          "Nike's customers"
+      ],
+      "correct_answer": "Nike's employees"
+  },
+  {
+      "question": "The difference between push- and pull-based models is summarized by which of the following slogans?",
+      "options": [
+          "Sell what we make, not make what we sell.",
+          "Push what we make, not pull what we make.",
+          "Make what we sell, not sell what we make.",
+          "Pull what we make, not push what we sell.",
+          "Make what we push, not push what we sell."
+      ],
+      "correct_answer": "Make what we sell, not sell what we make."
+  },
+  {
+      "question": "The WMS that Haworth Incorporated uses is an example of which of the following?",
+      "options": [
+          "Supply chain execution system",
+          "Supply chain planning system",
+          "Just-in-time strategy",
+          "Continuous replenishment system",
+          "Build-to-order model"
+      ],
+      "correct_answer": "Supply chain execution system"
+  },
+  {
+      "question": "The upstream portion of the supply chain consists of the organizations and processes for distributing and delivering products to the final customers.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "Firms in the supply chain develop safety stocks in order to reduce the cost of inventory.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "Before the Internet, supply chain coordination was hampered by the difficulties of making information flow smoothly among different internal supply chain processes.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "In a push-based model, transactions to produce and deliver only what customers have ordered move up the supply chain from retailers to distributors to manufacturers and eventually to suppliers.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "Procter & Gamble (P&G) experienced a growth in its Pampers diapers inventory due to the bullwhip effect.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "The emerging Internet-driven supply chain provides multidirectional communication among firms, networks of firms, and e-marketplaces.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "Which of the following would not be considered a contact point?",
+      "options": [
+          "Email",
+          "Website",
+          "Intranet",
+          "Retail store",
+          "Facebook"
+      ],
+      "correct_answer": "Intranet"
+  },
+  {
+      "question": "______ software modules deal with setting employee objectives, performance, and compensation.",
+      "options": [
+          "SCM",
+          "SFA",
+          "ERM",
+          "DRM",
+          "PRM"
+      ],
+      "correct_answer": "ERM"
+  },
+  {
+      "question": "______ software modules seek to enhance collaboration between a company and its selling partners.",
+      "options": [
+          "SCM",
+          "SFA",
+          "ERM",
+          "DRM",
+          "PRM"
+      ],
+      "correct_answer": "PRM"
+  },
+  {
+      "question": "SFA modules in CRM systems provide tools for all of the following except:",
+      "options": [
+          "team selling.",
+          "territory management.",
+          "sales forecasting.",
+          "managing sales prospect and contact information.",
+          "managing customer service requests."
+      ],
+      "correct_answer": "managing customer service requests."
+  },
+  {
+      "question": "Customer service modules in CRM systems provide tools for:",
+      "options": [
+          "assigning and managing customer service requests.",
+          "capturing prospect and customer data.",
+          "identifying profitable and unprofitable customers.",
+          "managing sales prospect and contact information.",
+          "organizing effective marketing campaigns."
+      ],
+      "correct_answer": "assigning and managing customer service requests."
+  },
+  {
+      "question": "Marketing modules in CRM systems provide tools for all of the following except:",
+      "options": [
+          "tools for assessing its selling partners' performance.",
+          "capturing prospect and customer data.",
+          "identifying profitable and unprofitable customers.",
+          "qualifying leads.",
+          "identifying opportunities for cross-selling."
+      ],
+      "correct_answer": "tools for assessing its selling partners' performance."
+  },
+  {
+      "question": "Major CRM software products include which of the following capabilities to support the sales process?",
+      "options": [
+          "Returns management",
+          "Lead management",
+          "Channel promotions management",
+          "Events management",
+          "Customer satisfaction management"
+      ],
+      "correct_answer": "Lead management"
+  },
+  {
+      "question": "Operational CRM applications include tools for all of the following except:",
+      "options": [
+          "sales force automation.",
+          "call center support.",
+          "marketing automation.",
+          "customer service support.",
+          "calculating CLTV."
+      ],
+      "correct_answer": "calculating CLTV."
+  },
+  {
+      "question": "Which metric is based on the relationship between the revenue produced by a specific customer, the expenses incurred in acquiring and servicing that customer, and the expected life of the relationship between the customer and the company?",
+      "options": [
+          "Churn rate",
+          "CLTV",
+          "Cost per lead",
+          "Cost per sale",
+          "Customer average value"
+      ],
+      "correct_answer": "CLTV"
+  },
+  {
+      "question": "The measurement of the number of customers who stop using or purchasing products or services from a company is called:",
+      "options": [
+          "switching costs.",
+          "churn rate.",
+          "CLTV.",
+          "switch rate.",
+          "turnover percentage."
+      ],
+      "correct_answer": "churn rate."
+  },
+  {
+      "question": "Cross-selling is the marketing of products to different customers.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "A PRM module in CRM software helps organizations identify high-value customers for preferential treatments.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "Which of the following statements about enterprise applications is not true?",
+      "options": [
+          "Enterprise applications require organizational learning.",
+          "Enterprise applications involve complex software.",
+          "Some enterprise applications, such as SCM systems, require multiple organizations to share information and business processes.",
+          "Some enterprise applications, such as CRM systems, typically require some data cleansing work.",
+          "Companies adopting enterprise applications can also save time and money by extensively customizing their applications to fit their business processes."
+      ],
+      "correct_answer": "Companies adopting enterprise applications can also save time and money by extensively customizing their applications to fit their business processes."
+  },
+  {
+      "question": "Which of the following is not a business intelligence feature of SAP's next generation business intelligence applications?",
+      "options": [
+          "Employee relationship management",
+          "What-if scenario analysis",
+          "Interactive dashboards",
+          "AI machine learning",
+          "Ad hoc analysis"
+      ],
+      "correct_answer": "Employee relationship management"
+  },
+  {
+      "question": "Enterprise systems do not require fundamental changes in the way the business operates.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "What event marked the beginning of e-commerce?",
+      "options": [
+          "The first product sold online",
+          "The first domain name registered",
+          "The first e-mail sent",
+          "The first paid advertisements placed on a website",
+          "The first product advertised online"
+      ],
+      "correct_answer": "The first paid advertisements placed on a website"
+  },
+  {
+      "question": "A marketplace extended beyond traditional boundaries and removed from a temporal and geographic location is called a(n):",
+      "options": [
+          "exchange.",
+          "marketspace.",
+          "online marketplace.",
+          "e-hub.",
+          "net marketplace."
+      ],
+      "correct_answer": "marketspace."
+  },
+  {
+      "question": "The universal standards of the Internet and e-commerce lower which of the following?",
+      "options": [
+          "Market entry costs",
+          "Richness",
+          "Information density",
+          "Ubiquity",
+          "Interactivity"
+      ],
+      "correct_answer": "Market entry costs"
+  },
+  {
+      "question": "All of the following are unique features of e-commerce technology, except:",
+      "options": [
+          "personalization/customization.",
+          "interactivity.",
+          "transparency.",
+          "richness.",
+          "global reach."
+      ],
+      "correct_answer": "transparency."
+  },
+  {
+      "question": "Which of the following dimensions of e-commerce technology involves engaging consumers in a dialogue that dynamically adjusts the experience to the individual?",
+      "options": [
+          "Ubiquity",
+          "Personalization/customization",
+          "Richness",
+          "Interactivity",
+          "Information density"
+      ],
+      "correct_answer": "Interactivity"
+  },
+  {
+      "question": "The effort required to locate a suitable product is called:",
+      "options": [
+          "price discrimination.",
+          "search costs.",
+          "menu costs.",
+          "shopping costs.",
+          "location costs."
+      ],
+      "correct_answer": "search costs."
+  },
+  {
+      "question": "Information density refers to the:",
+      "options": [
+          "richness—complexity and content—of a message.",
+          "total amount and quantity of information delivered to consumers by merchants.",
+          "total amount and quantity of information available to all market participants.",
+          "amount of information available to reduce price transparency.",
+          "amount of physical storage space needed to store data about a specific entity, such as a product or consumer."
+      ],
+      "correct_answer": "total amount and quantity of information available to all market participants."
+  },
+  {
+      "question": "Removing the business process layers in a distribution channel is called:",
+      "options": [
+          "disintermediation.",
+          "BPR.",
+          "market segmentation.",
+          "network effects.",
+          "market transparency."
+      ],
+      "correct_answer": "disintermediation."
+  },
+  {
+      "question": "In digital markets:",
+      "options": [
+          "search costs increase.",
+          "menu costs are lower.",
+          "switching costs decline.",
+          "network costs decline.",
+          "information asymmetry increases."
+      ],
+      "correct_answer": "menu costs are lower."
+  },
+  {
+      "question": "Compared to traditional markets, digital markets have:",
+      "options": [
+          "lower search costs.",
+          "weaker network effects.",
+          "higher menu costs.",
+          "greater asymmetry.",
+          "higher transaction costs."
+      ],
+      "correct_answer": "lower search costs."
+  },
+  {
+      "question": "Compared to traditional goods, digital goods have:",
+      "options": [
+          "a lower marginal cost of production on a per unit basis.",
+          "higher delivery costs.",
+          "lower initial production costs.",
+          "higher inventory costs.",
+          "higher marginal costs."
+      ],
+      "correct_answer": "a lower marginal cost of production on a per unit basis."
+  },
+  {
+      "question": "E-commerce refers to the use of the Internet and the web to transact business.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "In 2020, B2C e-commerce revenues are expected to grow at single-digit rates.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "The Internet increases information asymmetry.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "In general, for digital goods, the marginal cost of producing another unit is about zero.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "Cost transparency refers to the ability of consumers to discover what merchants actually pay for products.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "The term switching costs refers to a merchant's costs of changing prices.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "Amazon.com is known primarily for its use of which of the following business models?",
+      "options": [
+          "Content provider",
+          "Portal",
+          "Market creator",
+          "E-tailer",
+          "Transaction broker"
+      ],
+      "correct_answer": "E-tailer"
+  },
+  {
+      "question": "Craigslist is an example of:",
+      "options": [
+          "C2C e-commerce.",
+          "B2B e-commerce.",
+          "B2C e-commerce.",
+          "M-commerce.",
+          "B2G commerce."
+      ],
+      "correct_answer": "C2C e-commerce."
+  },
+  {
+      "question": "Which of the following types of e-commerce involves businesses selling goods and services directly to individuals via the Internet?",
+      "options": [
+          "B2C e-commerce",
+          "B2B e-commerce",
+          "C2C e-commerce",
+          "M-commerce",
+          "P2P e-commerce"
+      ],
+      "correct_answer": "B2C e-commerce"
+  },
+  {
+      "question": "Transaction brokers:",
+      "options": [
+          "generate revenue from advertising or from directing buyers to sellers.",
+          "save users money and time by processing transactions normally handled in person, by phone, or by mail online.",
+          "provide a digital environment where buyers and sellers can meet, display products, search for products, and establish prices.",
+          "sell physical products directly to consumers or individual businesses.",
+          "provide online meeting places where people with similar interests can communicate."
+      ],
+      "correct_answer": "save users money and time by processing transactions normally handled in person, by phone, or by mail online."
+  },
+  {
+      "question": "Market creators:",
+      "options": [
+          "save users money and time by processing online sales transactions.",
+          "provide a digital environment where buyers and sellers can establish prices for products.",
+          "create revenue by providing digital content over the web.",
+          "sell physical products directly to consumers or individual businesses.",
+          "generate revenue from advertising or from directing buyers to sellers."
+      ],
+      "correct_answer": "provide a digital environment where buyers and sellers can establish prices for products."
+  },
+  {
+      "question": "Which of the following best illustrates the sales revenue model?",
+      "options": [
+          "eBay receives a small fee from a seller if a seller is successful in selling an item.",
+          "Yelp receives a fee after steering a customer to a participating website where he or she makes a purchase.",
+          "Pandora provides basic services for free but charges a premium for advanced services.",
+          "Apple accepts micropayments for single music track downloads.",
+          "Netflix charges customers a monthly fee for access to its library of movies."
+      ],
+      "correct_answer": "Apple accepts micropayments for single music track downloads."
+  },
+  {
+      "question": "Content providers use ______ systems to process large amounts of very small monetary transactions cost-effectively.",
+      "options": [
+          "subscription",
+          "mobile payment",
+          "transaction fee",
+          "micropayment",
+          "affiliate revenue"
+      ],
+      "correct_answer": "micropayment"
+  },
+  {
+      "question": "Which of the following best illustrates the advertising revenue model?",
+      "options": [
+          "eBay receives a small fee from a seller if a seller is successful in selling an item.",
+          "Yelp receives a fee after steering a customer to a participating website where he or she makes a purchase.",
+          "Facebook provides a social network for free but shows sponsored content in users' News Feeds.",
+          "Apple accepts micropayments for single music track downloads.",
+          "Netflix charges customers a monthly fee for access to its library of movies."
+      ],
+      "correct_answer": "Facebook provides a social network for free but shows sponsored content in users' News Feeds."
+  },
+  {
+      "question": "Streaming is a publishing method for music and video files that flows a continuous stream of content to a user's device without being stored locally on the device.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "In the affiliate revenue model, firms derive revenue by referring consumers to other firms selling online.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "Pepsico using Super Bowl viewers to build an online video is an example of:",
+      "options": [
+          "prediction markets.",
+          "behavioral targeting.",
+          "long-tail marketing.",
+          "social shopping.",
+          "crowdsourcing."
+      ],
+      "correct_answer": "crowdsourcing."
+  },
+  {
+      "question": "Using the Internet to find potential customers inexpensively for products that have low demand is an example of:",
+      "options": [
+          "clickstream advertising.",
+          "behavioral targeting.",
+          "online profiling.",
+          "long tail marketing.",
+          "crowdsourcing."
+      ],
+      "correct_answer": "long tail marketing."
+  },
+  {
+      "question": "Which of the following marketing formats is sales-oriented, rather than branding-oriented or a mix?",
+      "options": [
+          "Lead generation",
+          "Search engine",
+          "Rich media",
+          "Display ads",
+          "Video"
+      ],
+      "correct_answer": "Search engine"
+  },
+  {
+      "question": "Facebook's \"like\" button is an example of which of the following?",
+      "options": [
+          "Social sign-on",
+          "Collaborative shopping",
+          "Network notification",
+          "Social search",
+          "Newsfeed"
+      ],
+      "correct_answer": "Network notification"
+  },
+  {
+      "question": "An environment where consumers can share their shopping experiences with one another by viewing products, chatting, or texting about brands, products, and services is an example of:",
+      "options": [
+          "network notification.",
+          "web personal marketing.",
+          "collaborative shopping.",
+          "social search.",
+          "social sign-on."
+      ],
+      "correct_answer": "collaborative shopping."
+  },
+  {
+      "question": "______ involves placing ads in social network newsfeeds or within traditional editorial content, such as a newspaper article.",
+      "options": [
+          "Behavioral targeting",
+          "Crowdsourcing",
+          "Native advertising",
+          "Demand prediction software",
+          "Lead generation marketing"
+      ],
+      "correct_answer": "Native advertising"
+  },
+  {
+      "question": "Viral marketing is like traditional word-of-mouth marketing except that it is spread via online communities.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "A majority of Americans want a Do Not Track option in browsers that will stop websites from collecting information about their online behavior.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "Which of the following statements about EDI is not true?",
+      "options": [
+          "Each major industry in the United States has EDI standards.",
+          "Today, EDI is only used for document automation.",
+          "Many organizations still use private networks for EDI.",
+          "EDI systems are increasingly web-enabled.",
+          "About 80 percent of online B2B e-commerce is still based on EDI."
+      ],
+      "correct_answer": "Today, EDI is only used for document automation."
+  },
+  {
+      "question": "The process of sourcing goods and materials, negotiating with suppliers, paying for goods, and making delivery arrangements is called:",
+      "options": [
+          "e-procurement.",
+          "SCM.",
+          "procurement.",
+          "distribution",
+          "production."
+      ],
+      "correct_answer": "procurement."
+  },
+  {
+      "question": "Which of the following statements about Net marketplaces is not true?",
+      "options": [
+          "Some Net marketplaces sell direct goods.",
+          "Some Net marketplaces serve vertical markets.",
+          "Some Net marketplaces sell indirect goods.",
+          "Some Net marketplaces support contractual purchases based on long-term relationships.",
+          "Some Net marketplaces are owned by a single firm and used to link solely to the firm's suppliers and key business partners."
+      ],
+      "correct_answer": "Some Net marketplaces are owned by a single firm and used to link solely to the firm's suppliers and key business partners."
+  },
+  {
+      "question": "Which of the following statements about exchanges is not true?",
+      "options": [
+          "Exchanges are independently owned third-party Net marketplaces.",
+          "Some exchanges provide vertical markets.",
+          "Exchanges are the most successful form of B2B commerce.",
+          "Some exchanges enable a spot market.",
+          "Go2Paper is an example of an exchange."
+      ],
+      "correct_answer": "Exchanges are the most successful form of B2B commerce."
+  },
+  {
+      "question": "Exchanges have become one of the most popular types of Net marketplace because they encourage competitive bidding that drives prices down.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "Indirect goods are goods that are not directly involved in the production process.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "A new social mobile app you are developing allows users to find friends who are logged in and within a 10-mile radius. This would be categorized as a ______ service.",
+      "options": [
+          "geosocial",
+          "geoinformation",
+          "geoadvertising",
+          "geomapping",
+          "geolocating"
+      ],
+      "correct_answer": "geosocial"
+  },
+  {
+      "question": "Which of the following is a milestone for the Phase 1: Planning phase of developing an e-commerce presence?",
+      "options": [
+          "Website plan",
+          "Web mission statement",
+          "Functional website",
+          "Social media plan",
+          "Mobile media plan"
+      ],
+      "correct_answer": "Web mission statement"
+  },
+  {
+      "question": "In planning a robust e-commerce presence, you will want to consider the blog platform as part of your ______ presence.",
+      "options": [
+          "social media",
+          "e-mail",
+          "community",
+          "website",
+          "offline media"
+      ],
+      "correct_answer": "social media"
+  },
+  {
+      "question": "Which of the following is the first value-adding step of information system activities in the knowledge management value chain?",
+      "options": [
+          "Feedback",
+          "Acquire",
+          "Disseminate",
+          "Store",
+          "Apply"
+      ],
+      "correct_answer": "Acquire"
+  },
+  {
+      "question": "Which of the following statements best describes the relationship between collaboration and knowledge management?",
+      "options": [
+          "Collaboration is impossible without knowledge.",
+          "Knowledge is impossible without collaboration.",
+          "Knowledge that cannot be communicated and shared with others is nearly useless.",
+          "As knowledge improves, so does collaboration.",
+          "Knowledge is the result of collaboration."
+      ],
+      "correct_answer": "Knowledge that cannot be communicated and shared with others is nearly useless."
+  },
+  {
+      "question": "The text defines ______ as flows of events or transactions captured by an organization's systems.",
+      "options": [
+          "information",
+          "data",
+          "wisdom",
+          "knowledge",
+          "experience"
+      ],
+      "correct_answer": "data"
+  },
+  {
+      "question": "Which of the following statements is not an accurate description of the importance of knowledge to a firm?",
+      "options": [
+          "The value of knowledge increases as more people share it.",
+          "Knowledge is an intangible asset.",
+          "Knowledge is both an individual attribute and collective attribute of a firm.",
+          "Knowledge is subject to the law of diminishing returns.",
+          "The transformation of data into useful information and knowledge requires organizational resources."
+      ],
+      "correct_answer": "Knowledge is subject to the law of diminishing returns."
+  },
+  {
+      "question": "What is meant by the statement \"knowledge is sticky\"?",
+      "options": [
+          "Knowledge is hard to move.",
+          "Knowledge is universally applicable.",
+          "Knowledge works only in certain situations.",
+          "Knowledge is intangible.",
+          "Knowledge is enmeshed in a firm's culture."
+      ],
+      "correct_answer": "Knowledge is hard to move."
+  },
+  {
+      "question": "Which of the following is not one of the main four dimensions of knowledge described in the chapter?",
+      "options": [
+          "Knowledge is a firm asset.",
+          "Knowledge has different forms.",
+          "Knowledge has a location.",
+          "Knowledge is situational.",
+          "Knowledge is timeless."
+      ],
+      "correct_answer": "Knowledge is timeless."
+  },
+  {
+      "question": "What is the second value-adding step in information system activities in the knowledge management value chain?",
+      "options": [
+          "Acquire",
+          "Feedback",
+          "Store",
+          "Disseminate",
+          "Apply"
+      ],
+      "correct_answer": "Store"
+  },
+  {
+      "question": "Which of the following are the three major types of knowledge management systems?",
+      "options": [
+          "MIS, DSS, and TPS",
+          "CRM, SCM, and CAD",
+          "DBMS, DSS, and ECM",
+          "COPS, ECM, and MIS",
+          "Enterprise-wide knowledge management systems, KWS, and intelligent techniques"
+      ],
+      "correct_answer": "Enterprise-wide knowledge management systems, KWS, and intelligent techniques"
+  },
+  {
+      "question": "Knowledge is conditional.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "The impacts of knowledge-based investments are easy to measure.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "Apple's Siri application is an example of which of the following?",
+      "options": [
+          "Neural network",
+          "Augmented reality",
+          "Genetic algorithm",
+          "Intelligent agent",
+          "Robotics"
+      ],
+      "correct_answer": "Intelligent agent"
+  },
+  {
+      "question": "An inference engine is:",
+      "options": [
+          "a neural network that can make inferences.",
+          "the programming environment of an expert system.",
+          "a method of organizing expert system knowledge into chunks.",
+          "a strategy used to search through an expert system's collection of rules and formulate conclusions.",
+          "a programming algorithm used to create a virtual world using a deep learning system."
+      ],
+      "correct_answer": "a strategy used to search through an expert system's collection of rules and formulate conclusions."
+  },
+  {
+      "question": "Which of the following statements about expert systems is not true?",
+      "options": [
+          "Expert systems were the first large-scale applications of AI in business.",
+          "Expert systems account for an estimated 20 percent of all AI systems today.",
+          "Expert system development has grown rapidly in the last decade.",
+          "Expert systems are not useful for dealing with unstructured problems.",
+          "Expert systems are expensive to build."
+      ],
+      "correct_answer": "Expert system development has grown rapidly in the last decade."
+  },
+  {
+      "question": "Which of the following statements about machine learning is not true?",
+      "options": [
+          "More than 75% of AI development today involves some kind of machine learning.",
+          "Machine learning is based on a different AI paradigm than expert systems.",
+          "Machine learning involves finding patterns in large data sets.",
+          "Genetic algorithms are a form of machine learning.",
+          "Machine learning is based on computer code that reflects rules underlying an expert's understanding."
+      ],
+      "correct_answer": "Machine learning is based on computer code that reflects rules underlying an expert's understanding."
+  },
+  {
+      "question": "Unsupervised machine learning involves:",
+      "options": [
+          "using very large databases to store common sense knowledge, then searching the database for patterns.",
+          "using algorithms to simulate the neurons and synapses of human brains.",
+          "programs that can \"teach themselves\" without human intervention.",
+          "using labeled inputs identified by humans to recognize objects.",
+          "using genetic algorithms to identify patterns in large datasets."
+      ],
+      "correct_answer": "programs that can \"teach themselves\" without human intervention."
+  },
+  {
+      "question": "Genetic algorithms:",
+      "options": [
+          "are a form of machine learning.",
+          "represent knowledge as groups of characteristics.",
+          "consist of many layers of neural networks working in a hierarchical fashion.",
+          "are based on logic.",
+          "seek to emulate a human expert's way of solving problems."
+      ],
+      "correct_answer": "are a form of machine learning."
+  },
+  {
+      "question": "All of the following are examples of machine learning except:",
+      "options": [
+          "CAD systems",
+          "Netflix's recommender system",
+          "PayPal's fraud detection system",
+          "Schindler Group's maintenance prediction system",
+          "WellsFargo's Aiera system"
+      ],
+      "correct_answer": "CAD systems"
+  },
+  {
+      "question": "The seminal research effort often referred to as \"The Cat Paper\" involved which of the following?",
+      "options": [
+          "Expert system",
+          "Natural language processing",
+          "Genetic algorithms",
+          "Unsupervised learning",
+          "Supervised learning"
+      ],
+      "correct_answer": "Unsupervised learning"
+  },
+  {
+      "question": "Which of the following statements about natural language processing (NLP) is not true?",
+      "options": [
+          "NLP is used by Google to return more meaningful search engine results based on the user's search language.",
+          "NLP is typically based on machine learning techniques.",
+          "NLP relies on the use of an expert system.",
+          "NLP can infer customers' specific needs when they call help centers.",
+          "NLP often uses neural networks."
+      ],
+      "correct_answer": "NLP relies on the use of an expert system."
+  },
+  {
+      "question": "In an expert system, the set of rules that models human knowledge is called:",
+      "options": [
+          "the knowledge base.",
+          "a deep learning neural network.",
+          "a genetic algorithm.",
+          "the Internet of Things (IoT).",
+          "an inference engine."
+      ],
+      "correct_answer": "the knowledge base."
+  },
+  {
+      "question": "Which of the following statements about robotics is not true?",
+      "options": [
+          "Robotics involves the creation and use of machines than can substitute for humans.",
+          "Robotics cannot substitute entirely for people.",
+          "Robotics can be used for surgery, bomb deactivation, and other dangerous environments.",
+          "Robotics does not require programming but instead relies solely on AI.",
+          "Robotics has widespread use in manufacturing."
+      ],
+      "correct_answer": "Robotics does not require programming but instead relies solely on AI."
+  },
+  {
+      "question": "Some commentators believe which of the following comes closest to the \"Grand Vision\" of AI?",
+      "options": [
+          "Expert systems",
+          "Deep learning networks",
+          "Genetic algorithms",
+          "Intelligent agents",
+          "Robotics"
+      ],
+      "correct_answer": "Deep learning networks"
+  },
+  {
+      "question": "An expert system cannot consider multiple rules at the same time.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "Expert systems use real-time data to guide their decisions.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "Deep learning neural networks are used almost exclusively for pattern detection on unlabeled data.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "Neural network applications explain why they arrive at a particular solution.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "Facebook's DeepFace is an example of a computer vision system.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "______ knowledge exists in formal documents, as well as in formal rules that organizations derive by observing experts and their decision-making behaviors.",
+      "options": [
+          "Unstructured",
+          "Tacit",
+          "Management",
+          "Explicit",
+          "Structured"
+      ],
+      "correct_answer": "Structured"
+  },
+  {
+      "question": "Which of the following would not be considered semistructured knowledge?",
+      "options": [
+          "Corporate annual report",
+          "Voice mail",
+          "Videos",
+          "Email",
+          "Bulletin board posting"
+      ],
+      "correct_answer": "Corporate annual report"
+  },
+  {
+      "question": "Which of the following statements about an ECM system is not true?",
+      "options": [
+          "Each knowledge object in an ECM system needs to be tagged.",
+          "ECM systems only enable users to access internal sources of information.",
+          "Oracle is a leading vendor of ECM software.",
+          "ECM systems enable a single point of access to information resources.",
+          "ECM systems can act as a corporate repository of best practices."
+      ],
+      "correct_answer": "ECM systems only enable users to access internal sources of information."
+  },
+  {
+      "question": "You are advising a video production company on the best type of knowledge management system to help them archive digital video and sound clips. Which of the following will best suit their needs?",
+      "options": [
+          "MOOC",
+          "Digital asset management system",
+          "CAD system",
+          "Virtual reality system",
+          "LMS"
+      ],
+      "correct_answer": "Digital asset management system"
+  },
+  {
+      "question": "Coca-Cola uses a ______ in order to classify, store and distribute all the images of the brand.",
+      "options": [
+          "digital asset management system",
+          "virtual reality system",
+          "learning management system",
+          "neural network",
+          "knowledge base"
+      ],
+      "correct_answer": "digital asset management system"
+  },
+  {
+      "question": "MOOCs are designed to serve a limited number of participants.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "According to experts, at least 80 percent of an organization's business content is semistructured or unstructured.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "Which of the following statements about 3-D printing is not true?",
+      "options": [
+          "It is able to create solid objects.",
+          "It is also called additive manufacturing.",
+          "It often results in wasted materials.",
+          "It creates objects layer by layer.",
+          "It uses specifications in a digital file."
+      ],
+      "correct_answer": "It often results in wasted materials."
+  },
+  {
+      "question": "Which of the following seeks to enhance human perception by combining a live direct view of the physical world with computer-generated images?",
+      "options": [
+          "Augmented reality",
+          "Expert system",
+          "CAD system",
+          "KWS",
+          "Machine learning system"
+      ],
+      "correct_answer": "Augmented reality"
+  },
+  {
+      "question": "Which of the following statements about augmented reality is not true?",
+      "options": [
+          "Augmented reality makes the surrounding real world more interactive and meaningful.",
+          "Image-guided surgery, where data acquired from computerized tomography (CT) and magnetic resonance imaging (MRI) scans or from ultrasound imaging are superimposed on the patient in the operating room, is an example of augmented reality.",
+          "Augmented reality is a method of organizing expert system knowledge into chunks.",
+          "Augmented reality enhances visualization by overlaying digital data and images onto a physical real-world environment.",
+          "Augmented reality is used in robotics."
+      ],
+      "correct_answer": "Augmented reality is a method of organizing expert system knowledge into chunks."
+  },
+  {
+      "question": "3-D printers can produce fully functioning components, such as working batteries and LEDs.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "Knowledge work systems require strong links to external knowledge bases.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "Today's 3-D printers can create objects out of human cartilage.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "The yellow first-down markers shown on televised football games are examples of AR.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "Which of the following statements best describes the business value of improved decision making at all levels of a firm?",
+      "options": [
+          "Improved decision making creates better products.",
+          "Improved decision making results in a large monetary value for the firm as numerous small daily decisions affecting efficiency, production, costs, and more add up to large annual values.",
+          "Improved decision making enables senior executives to more accurately foresee future financial trends.",
+          "Improved decision making strengthens customer and supplier intimacy, which reduces costs.",
+          "Improved decision making creates a better organizational culture."
+      ],
+      "correct_answer": "Improved decision making results in a large monetary value for the firm as numerous small daily decisions affecting efficiency, production, costs, and more add up to large annual values."
+  },
+  {
+      "question": "When there is no well-understood or agreed-on procedure for making a decision, it is said to be:",
+      "options": [
+          "undocumented.",
+          "unstructured.",
+          "documented.",
+          "semistructured.",
+          "random."
+      ],
+      "correct_answer": "unstructured."
+  },
+  {
+      "question": "Which type of decision is determining vacation eligibility for an employee?",
+      "options": [
+          "Semistructured",
+          "Procedural",
+          "Structured",
+          "Unstructured",
+          "Ad hoc"
+      ],
+      "correct_answer": "Structured"
+  },
+  {
+      "question": "The decisions involved in creating and producing a corporate intranet can be classified as ______ decisions.",
+      "options": [
+          "semistructured",
+          "procedural",
+          "analytic",
+          "structured",
+          "unstructured"
+      ],
+      "correct_answer": "semistructured"
+  },
+  {
+      "question": "Which of the following typically makes the unstructured decisions for a firm?",
+      "options": [
+          "Senior management",
+          "Middle management",
+          "Operational management",
+          "Individual employees",
+          "Teams"
+      ],
+      "correct_answer": "Senior management"
+  },
+  {
+      "question": "The ______ phase of decision making involves identifying and exploring various solutions to a problem.",
+      "options": [
+          "choice",
+          "design",
+          "implementation",
+          "analysis",
+          "intelligence"
+      ],
+      "correct_answer": "design"
+  },
+  {
+      "question": "Which of the following is not one of Simon's four stages of decision making?",
+      "options": [
+          "Implementation",
+          "Intelligence",
+          "Prediction",
+          "Choice",
+          "Design"
+      ],
+      "correct_answer": "Prediction"
+  },
+  {
+      "question": "Some decision scenarios made by middle managers may have unstructured components.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "The design phase of decision making consists of discovering, identifying, and understanding the problems occurring in the organization.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "The choice phase of Simon's decision-making model includes choosing among solution alternatives.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "Operational management face primarily semistructured decisions.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "A semistructured decision is one in which only part of the problem has a clear-cut answer provided by an accepted procedure.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "Which of the following is not one of the five observed ways in which managerial behavior differs from the classical description of managers?",
+      "options": [
+          "Managers perform a great deal of work at an unrelenting pace.",
+          "Most managerial activities take at least one hour to perform.",
+          "Managers prefer current, specific, ad hoc information.",
+          "Managers prefer oral forms of communication.",
+          "Managers give high priority to maintaining a diverse web of contacts."
+      ],
+      "correct_answer": "Most managerial activities take at least one hour to perform."
+  },
+  {
+      "question": "Mintzberg outlined three categories of managerial roles:",
+      "options": [
+          "interpersonal, informational, and decisional.",
+          "control, leadership, oversight.",
+          "operational, management, and executive.",
+          "symbolic, organizational, and technical.",
+          "operational management, middle management, senior management."
+      ],
+      "correct_answer": "interpersonal, informational, and decisional."
+  },
+  {
+      "question": "All of the following managerial roles can be supported by information systems except:",
+      "options": [
+          "liaison.",
+          "resource allocator.",
+          "nerve center.",
+          "disseminator.",
+          "disturbance handler."
+      ],
+      "correct_answer": "disturbance handler."
+  },
+  {
+      "question": "When managers represent their company in the outside world and perform symbolic duties, they are acting in their:",
+      "options": [
+          "decisional role.",
+          "managerial role.",
+          "informational role.",
+          "interpersonal role.",
+          "leadership role."
+      ],
+      "correct_answer": "interpersonal role."
+  },
+  {
+      "question": "As discussed in the chapter text, the three main reasons that investments in information technology do not always produce positive results are:",
+      "options": [
+          "management support, technical logistics, and user compliance.",
+          "organization, environment, culture.",
+          "information quality, information integrity, and information accuracy.",
+          "information quality, organizational culture, and management filters.",
+          "organization, culture, and technology."
+      ],
+      "correct_answer": "information quality, organizational culture, and management filters."
+  },
+  {
+      "question": "The concept of management ______ involves situations in which managers act on preconceived notions that reject information that does not conform to their prior conceptions.",
+      "options": [
+          "filters",
+          "backgrounds",
+          "inertia",
+          "inefficiency",
+          "politics"
+      ],
+      "correct_answer": "filters"
+  },
+  {
+      "question": "The dimension of ______ describes whether data elements are consistently defined.",
+      "options": [
+          "completeness",
+          "accuracy",
+          "validity",
+          "consistency",
+          "integrity"
+      ],
+      "correct_answer": "consistency"
+  },
+  {
+      "question": "Google's search engine is an example of which of the following types of decision?",
+      "options": [
+          "Semi-structured",
+          "Financial",
+          "Analytic",
+          "High-velocity",
+          "Highly structured"
+      ],
+      "correct_answer": "High-velocity"
+  },
+  {
+      "question": "Which of the following describes how the Simon framework of decision-making works in high-velocity decision environments?",
+      "options": [
+          "Only the initial step is performed by the software; the final three steps are handled by humans.",
+          "The first two steps of Simon's framework are eliminated and the final two steps are handled by software algorithms.",
+          "The first three steps of the process are handled by software algorithms and the final step is handled by experienced managers.",
+          "All four steps are performed by humans with the support of high-speed, high-volume DSS and ESS.",
+          "All four steps of the process are handled by software algorithms; humans are eliminated from the decisions because they are too slow."
+      ],
+      "correct_answer": "All four steps of the process are handled by software algorithms; humans are eliminated from the decisions because they are too slow."
+  },
+  {
+      "question": "A drawback to high-velocity, automated decision-making systems is that:",
+      "options": [
+          "they are unable to handle high volumes of decisions.",
+          "they are unable to handle structured decisions.",
+          "they only can be applied to semi-structured decisions.",
+          "great care needs to be taken to ensure the proper operation of the systems, since they are making decisions faster than managers can monitor or control.",
+          "they are only useful in the financial services industries."
+      ],
+      "correct_answer": "great care needs to be taken to ensure the proper operation of the systems, since they are making decisions faster than managers can monitor or control."
+  },
+  {
+      "question": "Behavioral models of management see managers as being ______ than does the classical model.",
+      "options": [
+          "more systematic",
+          "more informal",
+          "more reflective",
+          "more well organized",
+          "less reactive"
+      ],
+      "correct_answer": "more informal"
+  },
+  {
+      "question": "Which of the following is not one of the five classical functions of managers?",
+      "options": [
+          "Creating",
+          "Deciding",
+          "Planning",
+          "Organizing",
+          "Controlling"
+      ],
+      "correct_answer": "Creating"
+  },
+  {
+      "question": "The classical model of management describes what managers do when they plan, decide things, and control the work of others.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "Which of the following statements best describes the term business intelligence?",
+      "options": [
+          "Software developed exclusively for business management",
+          "The tools and techniques used to analyze and understand business data",
+          "The infrastructure for warehousing, integrating, reporting, and analyzing business data",
+          "Information systems involved in business decision making",
+          "Enterprise systems used to make business decisions"
+      ],
+      "correct_answer": "The infrastructure for warehousing, integrating, reporting, and analyzing business data"
+  },
+  {
+      "question": "Which of the following is not one of the six main elements in the business intelligence environment discussed in this chapter?",
+      "options": [
+          "Managerial users and methods",
+          "Organizational culture",
+          "User interface",
+          "Data from the business environment",
+          "Delivery platform"
+      ],
+      "correct_answer": "Organizational culture"
+  },
+  {
+      "question": "Which of the following is not a part of business intelligence infrastructure?",
+      "options": [
+          "Databases",
+          "Balanced scorecards",
+          "Data warehouses",
+          "Data marts",
+          "Analytic platforms"
+      ],
+      "correct_answer": "Balanced scorecards"
+  },
+  {
+      "question": "A(n) ______ report is produced when a user enters various values in a pivot table to filter data.",
+      "options": [
+          "drill-down",
+          "SQL",
+          "ad hoc",
+          "production",
+          "parameterized"
+      ],
+      "correct_answer": "parameterized"
+  },
+  {
+      "question": "Which of the following is not an example of a BI predefined production report?",
+      "options": [
+          "Workforce demographics",
+          "Order cycle time",
+          "What-if scenario analysis",
+          "Churn rate",
+          "Direct and indirect spending"
+      ],
+      "correct_answer": "What-if scenario analysis"
+  },
+  {
+      "question": "Location analytics can be used for all of the following except:",
+      "options": [
+          "helping a marketer to determine which people to target with mobile ads.",
+          "quantifying the impact of mobile ads on in-store visits.",
+          "package tracking and delivery routing systems.",
+          "determining where to open a new store.",
+          "determining call center resolution rates."
+      ],
+      "correct_answer": "determining call center resolution rates."
+  },
+  {
+      "question": "Data visualization technologies are used to help human users see patterns and relationships in large amounts of data.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "GIS are useful for businesses, but not as much for state and local governments.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "非"
+  },
+  {
+      "question": "In the chapter-opening case, Eastspring chose to use off-the-shelf products for all processes instead of developing solutions in-house.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "MIS typically produce:",
+      "options": [
+          "new ways of looking at data that emphasize change, flexibility, and rapid response.",
+          "fixed, regularly scheduled reports based on data extracted from the organization's TPS.",
+          "solutions to semi-structured problems appropriate for middle management decision making.",
+          "assumptions, responses to ad-hoc queries, and graphic representations of existing data.",
+          "scorecards of overall firm performance along predefined key indicators."
+      ],
+      "correct_answer": "fixed, regularly scheduled reports based on data extracted from the organization's TPS."
+  },
+  {
+      "question": "A pivot table is a(n):",
+      "options": [
+          "spreadsheet tool that displays two or more dimensions of data in a convenient format.",
+          "type of relational database.",
+          "chart tool that can rotate columnar data quickly and visually.",
+          "tool for performing sensitivity analysis.",
+          "integral data visualization tool used in digital dashboards and scorecards."
+      ],
+      "correct_answer": "spreadsheet tool that displays two or more dimensions of data in a convenient format."
+  },
+  {
+      "question": "The leading methodology for understanding the really important information needed by a firm's executives is called the ______ method.",
+      "options": [
+          "digital dashboard",
+          "balanced scorecard",
+          "KPI",
+          "data visualization",
+          "predictive analytics"
+      ],
+      "correct_answer": "balanced scorecard"
+  },
+  {
+      "question": "Which of the following is a management methodology that attempts to systematically translate a firm's strategy into generate operational targets?",
+      "options": [
+          "Benchmarks",
+          "Sensitivity analysis",
+          "Balanced scorecard",
+          "BPM",
+          "Parameterized reporting"
+      ],
+      "correct_answer": "BPM"
+  },
+  {
+      "question": "Which of the following is not a true statement about ESS?",
+      "options": [
+          "They support the structured decision making of senior executives.",
+          "They have significant drill-down capabilities.",
+          "They incorporate data from a firm's existing enterprise applications.",
+          "They can provide access to external data.",
+          "They require both a methodology for understanding performance information and a system capable of delivering that information."
+      ],
+      "correct_answer": "They support the structured decision making of senior executives."
+  },
+  {
+      "question": "Which of the following statements about DSS is not true?",
+      "options": [
+          "They rely more heavily on modeling than MIS.",
+          "They are BI delivery platforms for casual users.",
+          "They can support semistructured decision making",
+          "They can be used to perform a sensitivity analysis.",
+          "They can be used to test specific hypotheses."
+      ],
+      "correct_answer": "They are BI delivery platforms for casual users."
+  },
+  {
+      "question": "Resource efficiency is a KPI for which of the following dimensions?",
+      "options": [
+          "Financial",
+          "Business processes",
+          "Learning",
+          "Growth",
+          "Customers"
+      ],
+      "correct_answer": "Business processes"
+  },
+  {
+      "question": "A well-designed ESS helps senior executives do all of the following except:",
+      "options": [
+          "monitor organizational performance.",
+          "track the activity of competitors.",
+          "recognize changing market conditions.",
+          "identify problems and opportunities.",
+          "make high-velocity automated decisions."
+      ],
+      "correct_answer": "make high-velocity automated decisions."
+  },
+  {
+      "question": "BPM uses ideas similar to the balanced scorecard framework with a stronger emphasis on strategy.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  },
+  {
+      "question": "KPIs are used both in the balanced scorecard framework and BPM.",
+      "options": [
+          "是",
+          "非"
+      ],
+      "correct_answer": "是"
+  }
+]

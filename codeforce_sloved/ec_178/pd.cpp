@@ -11,22 +11,19 @@ typedef pair<int, int> pii;
 #define S second
 template<typename A> void chmin(A& l, const A& r){ if(r < l) l = r; }
 template<typename A> void chmax(A& l, const A& r){ if(l < r) l = r; }
-const int N = 6e6 + 5;
+const int N = 6e6 + 5; // k ~ n / ln n
 bitset<N> is_prime; 
 vector<int> prime;
 
 void init() {
-    for (int i = 2; prime.size() <= 400005; ++i) {
+    for (int i = 2; i <= N && sz(prime) <= int(4e5); ++i) {
         if (!is_prime[i]) {
             prime.push_back(i);
         }
-        for(int j = 0; j < prime.size() && prime[j] * i <= N && prime.size() <= 400005; j++) {
+        for(int j = 0; j < sz(prime) && prime[j] * i <= N && sz(prime) <= int(4e5); j++) {
             is_prime[prime[j] * i] = 1;
             if(i % prime[j] == 0) break;
         }
-    }
-    for(int i = 1; i < prime.size(); i++) {
-        prime[i] += prime[i - 1];
     }
 }
 
@@ -38,8 +35,8 @@ void sol() {
     i64 sum = 0;
     int ans = 1;
     rep(i, n) {
-        sum += a[i];
-        if(sum >= prime[i]) ans = max(ans, i + 1); 
+        sum += a[i] - prime[i];
+        if(sum >= 0) ans = i + 1; 
     }
     cout << n - ans << '\n';
     
